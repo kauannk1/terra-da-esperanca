@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+dist/
+backend/.venv/
+.env.local
+backend/.env
+.openclaude-profile.json
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.pytest_cache/
+.coverage
+.vscode/

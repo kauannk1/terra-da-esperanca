@@ -1,0 +1,13 @@
+export { LoginView } from "./LoginView";
+export { DashboardView } from "./DashboardView";
+export { TriagensView } from "./TriagensView";
+export { AcolhidosView } from "./AcolhidosView";
+export { CadastroView } from "./CadastroView";
+export { ProntuarioView } from "./ProntuarioView";
+export { EscalasView } from "./EscalasView";
+export { EstoqueView, EstoqueCategoriasView, EstoqueMovimentacoesView } from "./EstoqueView";
+export { DoadoresView } from "./DoadoresView";
+export { DoacoesView } from "./DoacoesView";
+export { AuditoriaView } from "./AuditoriaView";
+export { RelatoriosView } from "./RelatoriosView";
+export { AcessoView } from "./AcessoView";

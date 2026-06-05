@@ -1,0 +1,17 @@
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="180" rx="24" fill="none"/>
+  <g transform="translate(18 14)">
+    <path d="M70 20L20 58C16 61 15 67 18 71C21 75 27 76 31 73L39 67V118C39 122 42 125 46 125H94C98 125 101 122 101 118V67L109 73C113 76 119 75 122 71C125 67 124 61 120 58L70 20Z" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70 91C59 83 47 75 47 60C47 51 54 44 63 44C68 44 72 46 75 50C78 46 82 44 87 44C96 44 103 51 103 60C103 75 91 83 80 91L75 95L70 91Z" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="39" cy="100" r="9" fill="white"/>
+    <circle cx="76" cy="104" r="10" fill="white"/>
+    <circle cx="112" cy="100" r="9" fill="white"/>
+    <path d="M22 129C22 117 30 110 40 110C50 110 57 117 57 129" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M56 136C56 121 65 112 77 112C89 112 98 121 98 136" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M95 129C95 117 102 110 112 110C122 110 130 117 130 129" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(178 38)" fill="white">
+    <text x="0" y="44" font-family="Manrope, Arial, sans-serif" font-size="52" font-weight="800">Terra da</text>
+    <text x="0" y="100" font-family="Manrope, Arial, sans-serif" font-size="52" font-weight="800">Esperança</text>
+  </g>
+</svg>
