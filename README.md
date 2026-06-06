@@ -90,6 +90,8 @@ Projeto/
 
 ## Como executar
 
+O projeto já está configurado para avaliação, incluindo integração com banco e storage. Não é necessário criar arquivos de ambiente manualmente.
+
 ### Frontend
 
 ```bash
@@ -106,6 +108,8 @@ npm run api:install
 npm run api:init
 npm run api:dev
 ```
+
+Abra o frontend em `http://127.0.0.1:5173` ou no endereço exibido pelo Vite no terminal.
 
 ## Acesso de demonstração
 
