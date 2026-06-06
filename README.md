@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Kauan Rafael Silva Sena
-- Caio Sanchez
+- Caio Sanchez da Silva
 - Yago Mestrinel Hoeppner
 
 ## Objetivo do sistema
