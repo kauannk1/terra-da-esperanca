@@ -38,18 +38,93 @@ O protótipo funcional foi desenvolvido com foco no **núcleo de gestão de acol
 
 ```text
 Projeto/
+|-- .env.example
+|-- .env.local
+|-- .gitignore
+|-- README.md
+|-- index.html
+|-- package.json
+|-- package-lock.json
+|-- vite.config.js
 |-- backend/
-|   |-- app/
+|   |-- .env
+|   |-- .env.example
 |   |-- requirements.txt
+|   |-- app/
+|   |   |-- api/
+|   |   |   |-- routes/
+|   |   |   |-- deps.py
+|   |   |   |-- router.py
+|   |   |-- core/
+|   |   |   |-- config.py
+|   |   |   |-- security.py
+|   |   |-- db/
+|   |   |   |-- base.py
+|   |   |   |-- base_class.py
+|   |   |   |-- init_db.py
+|   |   |   |-- seed.py
+|   |   |   |-- session.py
+|   |   |   |-- storage.py
+|   |   |-- models/
+|   |   |   |-- governance.py
+|   |   |   |-- logistics.py
+|   |   |   |-- resident.py
+|   |   |   |-- user.py
+|   |   |-- schemas/
+|   |   |   |-- auth.py
+|   |   |   |-- dashboard.py
+|   |   |   |-- governance.py
+|   |   |   |-- inventory.py
+|   |   |   |-- operations.py
+|   |   |   |-- residents.py
+|   |   |   |-- users.py
+|   |   |-- services/
+|   |   |   |-- dashboard.py
+|   |   |   |-- reports.py
+|   |   |-- main.py
+|-- public/
+|   |-- logo-full.svg
+|   |-- logo-mark.svg
 |-- src/
+|   |-- app/
+|   |   |-- persistence.js
+|   |   |-- viewConfig.js
 |   |-- components/
+|   |   |-- ErrorBoundary.jsx
+|   |   |-- MetricCard.jsx
+|   |   |-- Modal.jsx
+|   |   |-- NotificationsPanel.jsx
+|   |   |-- Sidebar.jsx
+|   |   |-- Toast.jsx
+|   |   |-- Topbar.jsx
+|   |-- data/
+|   |   |-- initialState.js
 |   |-- services/
+|   |   |-- api.js
+|   |   |-- remoteState.js
+|   |   |-- storage.js
 |   |-- styles/
+|   |   |-- app.css
 |   |-- utils/
+|   |   |-- helpers.js
 |   |-- views/
+|   |   |-- shared/
+|   |   |-- AcessoView.jsx
+|   |   |-- AcolhidosView.jsx
+|   |   |-- AuditoriaView.jsx
+|   |   |-- CadastroView.jsx
+|   |   |-- DashboardView.jsx
+|   |   |-- DoacoesView.jsx
+|   |   |-- DoadoresView.jsx
+|   |   |-- EscalasView.jsx
+|   |   |-- EstoqueView.jsx
+|   |   |-- LoginView.jsx
+|   |   |-- ProntuarioView.jsx
+|   |   |-- RelatoriosView.jsx
+|   |   |-- TriagensView.jsx
+|   |   |-- index.js
 |   |-- App.jsx
 |   |-- main.jsx
-|-- README.md
 ```
 
 ## O que foi implementado
